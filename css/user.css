@@ -1,0 +1,36 @@
+@import "reset.css";
+@import "../components/variable.css";
+@import "../components/user.css";
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr 200px;
+    grid-template-rows: 150px 1fr;
+}
+
+.user-info{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-info__image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--title-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 75px;
+}
+.user-info span{
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}

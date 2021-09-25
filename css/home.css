@@ -1,12 +1,12 @@
 @import "reset.css";
 @import "../components/variable.css";
-@import "../components/category-i.css";
+@import "../components/user.css";
 
 body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 300px 1fr 200px;
     grid-template-rows: 150px 1fr;
 }
 .title{
@@ -44,4 +44,7 @@ body{
 .category__btn:nth-child(even){
     background-color:var(--title-color);
     color: white;
+}
+.category__btn i{
+    margin-right: 10px;
 }
