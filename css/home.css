@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "../components/variable.css";
 @import "../components/user.css";
+@import "../components/tweet.css";
 
 body{
     width: 100vw;
