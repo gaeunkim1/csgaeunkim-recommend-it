@@ -1,0 +1,47 @@
+@import "reset.css";
+@import "../components/variable.css";
+@import "../components/category-i.css";
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 150px 1fr;
+}
+.title{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: var(--title-color);
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category{
+    grid-column: 1/2;
+    grid-row: 2/-1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    font-size: 30px;
+    font-weight: 600;
+    border-right: 2px solid var(--title-color);
+}
+.category__btn{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.category__btn:nth-child(odd){
+    background-color: white;
+    color: var(--title-color);
+}
+.category__btn:nth-child(even){
+    background-color:var(--title-color);
+    color: white;
+}
