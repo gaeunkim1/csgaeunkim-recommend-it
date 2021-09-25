@@ -6,8 +6,8 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 300px 1fr 200px;
-    grid-template-rows: 150px 1fr;
+    grid-template-columns: 300px 50px 1fr 200px;
+    grid-template-rows: repeat(5, 1fr);
 }
 .title{
     grid-column: 1/2;
@@ -47,4 +47,13 @@ body{
 }
 .category__btn i{
     margin-right: 10px;
+}
+.current-page{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 20px;
+    color: var(--title-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

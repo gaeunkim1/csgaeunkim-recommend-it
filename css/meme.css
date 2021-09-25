@@ -1,0 +1,9 @@
+.current-page{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 20px;
+    color: var(--title-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
