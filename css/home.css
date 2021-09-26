@@ -2,6 +2,7 @@
 @import "../components/variable.css";
 @import "../components/user.css";
 @import "../components/tweet.css";
+@import "../components/hover.css";
 
 body{
     width: 100vw;
@@ -22,7 +23,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .category{
     grid-column: 1/2;
     grid-row: 2/-1;
@@ -31,7 +31,6 @@ body{
     grid-template-rows: repeat(4, 1fr);
     font-size: 30px;
     font-weight: 600;
-    border-right: 2px solid var(--title-color);
 }
 .category__btn{
     display: flex;

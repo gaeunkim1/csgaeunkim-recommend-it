@@ -1,0 +1,6 @@
+.category div:hover,
+header:hover,
+.user div:hover{
+    background-color: #F7C631;
+    color: white;
+}

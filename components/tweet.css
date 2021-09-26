@@ -19,11 +19,11 @@
     border: none;
     padding: 10px;
 }
-.text input:hover{
+.text .text__tweet:hover{
     background-color: #F5F5F6;
     border: 3px solid #F7C631;
 }
-.text input:focus{
+.text .text__tweet:focus{
     outline: none;
 }
 .text__send{
@@ -34,4 +34,7 @@
     background-color: #F7C631;
     border: none;
     color: white;
+}
+.text__send:hover{
+    background-color: var(--title-color);
 }
