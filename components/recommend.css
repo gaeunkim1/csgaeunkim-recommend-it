@@ -1,0 +1,58 @@
+.tweet-before{
+    grid-column: 3/4;
+    grid-row: 2/-1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.tweet-before__text{
+    margin-bottom: 15px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #F7C631;
+    border: none;
+    border-bottom-left-radius: 0;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: white;
+}
+.v-one{
+    width: 78px;
+}
+.v-two{
+    width: 35px;
+}
+.v-three{
+    width: 90px;
+}
+.v-four{
+    width: 97px;
+}
+.one{
+    width: 98px;
+}
+.two{
+    width: 30px;
+}
+.three{
+    width: 45px;
+}
+.four{
+    width: 68px;
+}
+.five{
+    width: 67px;
+}
+
+.meme,
+.meme img{
+    width: 200px;
+    height: 200px;
+}
+.product,
+.product img{
+    width: 180px;
+    height: 200px;
+}
